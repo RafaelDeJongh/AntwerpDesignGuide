@@ -266,7 +266,7 @@ var main = function () {
                 $("#hotspotinfo").css("background-color", "#405b62");
                 break;
             case "YellowSubmarine":
-                $("#infonum").text("17").css("color", "#405b62");
+                $("#infonum").text("13").css("color", "#405b62");
                 $("#info").text("Yellow Submarine B&B");
                 $("#hotspotinfo p:nth-of-type(1)").html('B&B Yellow Submarine ligt in het centrum van Antwerpen, op 600 meter van de Grote Markt. Het heeft kamers met een minimalistisch interieur en gratis WiFi.');
                 $("#hotspotinfo p:nth-of-type(2)").html('B&B Yellow Submarine heeft kamers met originele kenmerken die zijn uitgerust met een flatscreentelevisie met kabelzenders, een minibar, een Nespresso-apparaat en thee van het merk Rituals. U kunt genieten van een ontbijt bestaande uit vers brood, ontbijtgranen, vers fruit en koffie en de keuze uit een omelet of een gekookt ei. Een glutenvrij of lactosevrij ontbijt is op aanvraag beschikbaar.');
@@ -275,7 +275,7 @@ var main = function () {
                 $("#hotspotinfo").css("background-color", "#405b62");
                 break;
             case "HomeFeek":
-                $("#infonum").text("18").css("color", "#405b62");
+                $("#infonum").text("14").css("color", "#405b62");
                 $("#info").text("Home@Feek");
                 $("#hotspotinfo p:nth-of-type(1)").html('Home@Feek ligt op een rustige locatie in het oude centrum van Antwerpen en heeft 3 trendy en stijlvolle suites. Geniet van de luxe faciliteiten, zoals een regendouche, een spabad en een eigen terras.');
                 $("#hotspotinfo p:nth-of-type(2)").html('De elegante suites zijn het nieuwste concept van designer Frederik van Heereveld. Ze zijn ontworpen met aandacht voor detail en unieke materialen. De rustgevende inrichting garandeert een goede nachtrust. Daarnaast loopt u in slechts 5 minuten naar de Grote Markt.');
@@ -284,7 +284,7 @@ var main = function () {
                 $("#hotspotinfo").css("background-color", "#405b62");
                 break;
             case "WitteLelie":
-                $("#infonum").text("19").css("color", "#405b62");
+                $("#infonum").text("15").css("color", "#405b62");
                 $("#info").text("Hotel De Witte Lelie");
                 $("#hotspotinfo p:nth-of-type(1)").html('Hotel De Witte Lelie is een klein boetiekhotel in het centrum van Antwerpen. Er is gratis WiFi en een terras met een romantische tuin.');
                 $("#hotspotinfo p:nth-of-type(2)").html('Het hotel biedt suites met airconditioning en een eigen badkamer. Het ontbijt wordt tijdens de warmere maanden geserveerd op het terras.');
@@ -293,7 +293,7 @@ var main = function () {
                 $("#hotspotinfo").css("background-color", "#405b62");
                 break;
             case "LeonardoHotel":
-                $("#infonum").text("20").css("color", "#405b62");
+                $("#infonum").text("16").css("color", "#405b62");
                 $("#info").text("Leonardo Hotel Antwerp");
                 $("#hotspotinfo p:nth-of-type(1)").html('Leonardo Hotel Antwerpen biedt designkamers in een historisch pand in de Diamantenwijk, op 50 meter van het centraal station van Antwerpen en de Antwerpse dierentuin. Het beschikt over een eigentijdse bar waar Belgisch bier wordt geschonken. In de lobby staan 2 computers met gratis internet.');
                 $("#hotspotinfo p:nth-of-type(2)").html('De kamers zijn ingericht in warme tinten en rijke stoffen. De eigen badkamers zijn uitgerust met een bad of een douche. Er wordt ook dagelijks een ontbijtbuffet geserveerd met roerei, versgebakken brood en zoete deegwaren. In de zomermaanden kunt u op het zonnige terras van uw ontbijt genieten.');

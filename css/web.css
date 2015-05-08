@@ -212,6 +212,9 @@ section {
     margin-bottom: 1em;
     border-bottom: 1.4em solid #1cb299;*/
 }
+#hotspots {
+    padding: 4% 0;
+}
 #hotspotinfo{
     height: auto;
     /*min-height: 43vw;*/
@@ -433,7 +436,7 @@ ul#categories li:nth-of-type(-n+5) div h2, ul#categories li:nth-of-type(-n+5) di
 #locations {
     width: 100%;
     min-height: 20em;
-    height: 42vw;
+    height: 42.1vw;
     margin-bottom: -4px;
 }
 .scrolloff {
