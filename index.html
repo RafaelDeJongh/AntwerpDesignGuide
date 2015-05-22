@@ -3,12 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="author" content="Rafa&euml;l De Jongh, Lino Talaveron, Eline Maas"/>
-<meta name="description" content="The official website of the AntwerpDesignGuide"/>
+<meta name="description" content="De officiele website van de AntwerpDesignGuide"/>
 <meta name="keywords" content="design, guide, antwerp, design guide, antwerpen, designer, gids"/>
+<meta property="og:title" content="AntwerpDesignGuide" />
+<meta property="og:description" content="De officiele website van de AntwerpDesignGuide" />
+<meta property="og:site_name" content="AntwerpDesignGuide" />
+<meta property="og:url" content="http://antwerpdesignguide.ga" />
+<meta property="og:image" content="http://antwerpdesignguide.ga/images/logoside.png" />
 <title>AntwerpDesignGuide</title>
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 <link rel="stylesheet" type="text/css" href="css/web.css">
-<link rel="stylesheet" type="text/css" href="css/mobile.css" media="screen and (max-width: 900px)">
+<link rel="stylesheet" type="text/css" href="css/mobile.css" media="only screen and (max-width: 900px), only screen and (max-device-width: 900px)">
 </head>
 <body id="home">
 <header>
@@ -21,22 +26,28 @@
     </a>
     <a id="menu-toggle">&#62489;</a>
     <span id="mobiledropdown">
-        <a class="na active" href="#home">Home</a>
+        <a class="na active" data-hotspot="Hotspots" href="#home">Home</a>
         <a class="na" href="#hotspots">Hotspots</a>
         <a class="na" href="#info">Informatie</a>
-        <a class="na" href="#locations">Locations</a>
+        <a class="na" href="#locations">Locaties</a>
     </span>
 </nav>
 <a class="totop" href="#hotspots">&#62514;</a>
+<div id="advert" class="adv-ad">
+    <span id="adclose">&#62469;</span>
+    <a href="http://www.winkelhaak.be/" target="_blank"><img src="images/ads/ad1.jpg" alt="advert" /></a>
+</div>
 <!--Content-->
 <article>
     <section id="hotspots">
 <!--Hexagons--> 
-<ul id="categories" class="clr">
+<ul class="categories clr">
         <li>
             <div>
                 <a href="#info" data-hotspot="Horeca"></a>
         <img src="images/hotspots/horeca.jpg" alt="hotspot"/>
+            <h2>Horeca</h2>
+            <p></p>
             </div>
         </li>
         <li>
@@ -44,7 +55,7 @@
                 <a href="#info" data-hotspot="EllisGourmetBurger"></a>
         <img src="images/hotspots/ellis.jpg" alt="hotspot"/>
         <h2>Ellis Gourmet Burger</h2>
-        <p>Een burger restaurant om naar toe te stappen.</p>
+        <p>De Keyserlei 21<br>2018 Antwerpen</p>
             </div>
         </li>
         <li>
@@ -52,7 +63,7 @@
                 <a href="#info" data-hotspot="Tartine"></a>
         <img src="images/hotspots/tartine.jpg" data-hotspot="Tartine" alt="hotspot"/>
         <h2>Maison Tartine</h2>
-        <p>Tartine Tartine</p>
+        <p>Minderbroedersrui 60<br>2000 Antwerpen</p>
             </div>
         </li>
         <li>
@@ -60,15 +71,15 @@
                 <a href="#info" data-hotspot="Lux"></a>
         <img src="images/hotspots/lux.jpg" alt="hotspot"/>
         <h2>Lux</h2>
-        <p>De luxe bar!</p>
+        <p>Adriaan<br>Brouwerstraat 13<br>2000 Antwerpen</p>
             </div>
         </li>
         <li>
             <div>
                 <a href="#info" data-hotspot="Mon"></a>
         <img src="images/hotspots/mon.jpg" alt="hotspot"/>
-        <h2>Mon</h2>
-        <p>Mon Mon Mon</p>
+        <h2>Món</h2>
+        <p>Sint-Aldegondiskaai 30<br>2000 Antwerpen</p>
             </div>
         </li>
         <!--Rij2-->
@@ -76,6 +87,8 @@
             <div>
                 <a href="#info" data-hotspot="Winkels"></a>
         <img src="images/hotspots/winkels.jpg" alt="hotspot"/>
+            <h2>Winkels</h2>
+            <p></p>
             </div>
         </li>
         <li>
@@ -83,7 +96,7 @@
                 <a href="#info" data-hotspot="100gr"></a>
         <img src="images/hotspots/100gr.jpg" alt="hotspot"/>
         <h2>100gr Design</h2>
-        <p>100gr Design design design.</p>
+        <p>Lange<br>Winkelhaakstraat 26<br>2060 Antwerpen</p>
             </div>
         </li>
         <li>
@@ -91,7 +104,7 @@
                 <a href="#info" data-hotspot="Goldwood"></a>
         <img src="images/hotspots/goldwood.jpg" alt="hotspot"/>
         <h2>Goldwood By Boris</h2>
-        <p>In the Ghetto</p>
+        <p>Offerandestraat 1<br>2060 Antwerpen</p>
             </div>
         </li>
         <li>
@@ -99,7 +112,7 @@
                 <a href="#info" data-hotspot="ChaplinsBarbershop"></a>
         <img src="images/hotspots/chaplins.jpg" alt="hotspot"/>
         <h2>Chaplins Barbershop</h2>
-        <p>Chaplins Barbershop barber</p>
+        <p>Londenstraat 12<br>2000 Antwerpen</p>
             </div>
         </li>
         <li>
@@ -107,7 +120,7 @@
                 <a href="#info" data-hotspot="Bulthaup"></a>
         <img src="images/hotspots/bulthaup.jpg" alt="hotspot"/>
         <h2>Bulthaup Metropool</h2>
-        <p>Metro and pool</p>
+        <p>Jordaenskaai 2<br>2000 Antwerpen</p>
             </div>
         </li>
         <!--Rij3-->
@@ -115,6 +128,8 @@
             <div>
                 <a href="#info" data-hotspot="Interieur"></a>
         <img src="images/hotspots/interieur.jpg" alt="hotspot"/>
+            <h2>Interieur</h2>
+            <p></p>
             </div>
         </li>
         <li>
@@ -122,7 +137,7 @@
                 <a href="#info" data-hotspot="FelixPakhuis"></a>
         <img src="images/hotspots/felix.jpg" alt="hotspot"/>
         <h2>Felix Pakhuis</h2>
-        <p>Het Pakhuis van Felix</p>
+        <p>Godefriduskaai 30<br>2000 Antwerpen</p>
             </div>
         </li>        
         <li>
@@ -130,7 +145,7 @@
                 <a href="#info" data-hotspot="RobbyAerts"></a>
         <img src="images/hotspots/robby.jpg" alt="hotspot"/>
         <h2>Robby Aerts Interieur</h2>
-        <p>Het interieur van Robby Aerts</p>
+        <p>Kommekensstraat 16<br>2000 Antwerpen</p>
             </div>
         </li>
         <li>
@@ -138,61 +153,24 @@
                 <a href="#info" data-hotspot="RoosMartens"></a>
         <img src="images/hotspots/roos.jpg" alt="hotspot"/>
         <h2>Roos Mertens Interieur</h2>
-        <p>Het interieur van Roos Martens</p>
+        <p>Oude Leeuwenrui 36<br>2000 Antwerpen</p>
             </div>
         </li>
         <li>
             <div>
                 <a href="#info" data-hotspot="MAS"></a>
         <img src="images/hotspots/mas.jpg" alt="hotspot"/>
-        <h2>Museam aan de Stroom</h2>
-        <p>Het Mas</p>
+        <h2>Het MAS</h2>
+        <p>Hanzestedenplaats 1<br>2000 Antwerpen</p>
             </div>
         </li>
     <!--Rij4-->
-        <!--<li>
-            <div>
-                <a href="#info" data-hotspot="Bedrijven"></a>
-        <img src="images/hotspots/bedrijven.jpg" alt="hotspot"/>
-            </div>
-        </li>
-        <li>
-            <div>
-                <a href="#info" data-hotspot="Winkelhaak"></a>
-        <img src="images/hotspots/winkelhaak.jpg" alt="hotspot"/>
-        <h2>De Winkelhaak</h2>
-        <p>In the ghetto.</p>
-            </div>
-        </li>
-        <li>
-            <div>
-                <a href="#info" data-hotspot="VintagePrdocutions"></a>
-        <img src="images/hotspots/vintage.jpg" alt="hotspot"/>
-        <h2>Vintage Productios</h2>
-        <p>Vintage Productions</p>
-            </div>
-        </li>
-        <li>
-            <div>
-                <a href="#info" data-hotspot="Rizon"></a>
-        <img src="images/hotspots/rizon.jpg" alt="hotspot"/>
-        <h2>Rizon</h2>
-        <p>The Rizon</p>
-            </div>
-        </li>
-        <li>
-            <div>
-                <a href="#info" data-hotspot="Smidesign"></a>
-        <img src="images/hotspots/smi.jpg" alt="hotspot"/>
-        <h2>Smidesign</h2>
-        <p>Design van Smi in the ghetto.</p>
-            </div>
-        </li>-->
-    <!--Rij5-->
         <li>
             <div>
                 <a href="#info" data-hotspot="Overnachten"></a>
         <img src="images/hotspots/overnachten.jpg" alt="hotspot"/>
+            <h2>Overnachten</h2>
+            <p></p>
             </div>
         </li>
         <li>
@@ -200,7 +178,7 @@
                 <a href="#info" data-hotspot="YellowSubmarine"></a>
         <img src="images/hotspots/submarine.jpg" alt="hotspot"/>
         <h2>Yellow Submarine B&amp;B</h2>
-        <p>The beatles.</p>
+        <p>Falconplein 51<br>2000 Antwerpen</p>
             </div>
         </li>
         <li>
@@ -208,7 +186,7 @@
                 <a href="#info" data-hotspot="HomeFeek"></a>
         <img src="images/hotspots/feek.jpg" alt="hotspot"/>
         <h2>Home @ Feek</h2>
-        <p>The feek's are home</p>
+        <p>Klapdorp 52<br>2000 Antwerpen</p>
             </div>
         </li>
         <li>
@@ -216,7 +194,7 @@
                 <a href="#info" data-hotspot="WitteLelie"></a>
         <img src="images/hotspots/lelie.jpg" alt="hotspot"/>
         <h2>De Witte Lelie</h2>
-        <p>De lelie is wit.</p>
+        <p>Keizerstraat 16<br>2000 Antwerpen</p>
             </div>
         </li>
         <li>
@@ -224,7 +202,7 @@
                 <a href="#info" data-hotspot="LeonardoHotel"></a>
         <img src="images/hotspots/leonardo.jpg" alt="hotspot"/>
         <h2>Leonardo Hotel</h2>
-        <p>Hotel van Leonardo</p>
+        <p>De Keyserlei 59<br>2018 Antwerpen</p>
             </div>
         </li>
 </ul>
@@ -232,11 +210,45 @@
     </section>
 <section id="hotspotinfo">
     <span id="infonum">A</span>
-    <h2 id="info">Hotspot Information</h2>
-    <p>Inleiding van gids/hotspots.</p>
-    <p>Hotspot Categorie 1</p>
-    <p>Hotspot Categorie 2</p>
-    <p>Hotspot Categorie 3 + 4</p>
+    <h2 id="info">Hotspot Informatie</h2>
+    <p>Welkom op de website van AntwerpDesignGuide. Op deze site kan u alles terugvinden van de gids die iedere design liefhebber de mogelijkheid geeft om Antwerpen in een nieuw en sfeervol design licht te zien.</p>
+    <p>Deze gids toont verschillende aspecten van de design wereld waar een link wordt gelegd met bijzondere hotspots die in Antwerpen te vinden zijn.</p>
+    <p>Deze aspecten worden in de gids opgedeeld in vier verschillende categorieën waaronder elk vier hotspots te vinden zijn. De gids zal je naar deze hotspots leiden zodat je een geheel beeld krijgt van de verschillende design typen die in Antwerpen te vinden zijn.</p>
+    <ul class="categories clr infohex">
+        <li>
+            <div>
+                <a href="#info" data-hotspot="Horeca"></a>
+                <img src="images/hotspots/horeca.jpg" alt="hotspot"/>
+                <h2>Horeca</h2>
+                <p></p>
+            </div>
+        </li>
+        <li>
+            <div>
+                <a href="#info" data-hotspot="Winkels"></a>
+                <img src="images/hotspots/winkels.jpg" alt="hotspot"/>
+                <h2>Winkels</h2>
+                <p></p>
+            </div>
+        </li>
+        <li>
+            <div>
+                <a href="#info" data-hotspot="Interieur"></a>
+                <img src="images/hotspots/interieur.jpg" alt="hotspot"/>
+                <h2>Interieur</h2>
+                <p></p>
+            </div>
+        </li>
+        <li>
+            <div>
+                <a href="#info" data-hotspot="Overnachten"></a>
+                <img src="images/hotspots/overnachten.jpg" alt="hotspot"/>
+                <h2>Overnachten</h2>
+                <p></p>
+            </div>
+        </li>
+    </ul>
+    <p>Indien ge&iuml;nteresseerd kan je de gids altijd gratis ophalen op elk Antwerps info punt, in een van de 16 hotspots of je kan ook onze gratis mobiele applicatie downloaden op de <a href="https://play.google.com/store/search?q=antwerpen%20guide" target="_blank">Google Play Store</a> of de <a href="https://itunes.apple.com/nl/genre/ios/id36?mt=8" target="_blank">Apple App Store.</a></p>
 </section>
 <!--Google Maps-->
 <section id="googlemaps">

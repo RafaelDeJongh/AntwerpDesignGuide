@@ -1,0 +1,12 @@
+Options -Indexes
+DirectoryIndex index.php index.html /index.php
+
+ErrorDocument 400 default
+ErrorDocument 401 default
+ErrorDocument 403 default
+ErrorDocument 404 /index.html
+
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
